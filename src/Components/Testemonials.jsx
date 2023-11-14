@@ -8,7 +8,7 @@ function Testemonials() {
     },
     {
       desc: "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
-      pic: "/images/profile-2.jpg",
+      pic: "./images/profile-2.jpg",
       name: "Bruce McKenzie",
       posistion: "Founder & CEO, Huddle",
     },
