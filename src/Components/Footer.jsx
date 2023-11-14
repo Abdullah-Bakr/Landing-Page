@@ -1,5 +1,7 @@
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 
+import logo from "../assets/logo.svg";
+import location from "../assets/icon-location.svg";
 function Footer() {
   const contact = [
     { icon: "icon-phone.svg", text: "+20121212121" },
@@ -23,7 +25,7 @@ function Footer() {
       <div className="container mx-auto pl-5 md:pl-0 ">
         <a href="#footer">
           <img
-            src="./images/logo.svg"
+            src={logo}
             alt="logo-img"
             className="w-[175px] h-[66px] object-contain"
           />
@@ -31,7 +33,7 @@ function Footer() {
         <div className="flex justify-between flex-wrap flex-col md:flex-row gap-[30px] mt-[30px]">
           <div className="flex items-start gap-[15px] w-[340px] max-w-full">
             <img
-              src="./images/icon-location.svg"
+              src={location}
               alt="location-img"
               className="w-[18px] h-[18px] object-contain"
             />
