@@ -5,7 +5,7 @@ function Landing() {
         <div className="flex justify-center items-center max-w-full flex-col text-white  text-center">
           <div className="w-[750px] max-w-full">
             <img
-              src="src/assets/images/illustration-intro.png"
+              src="./images/illustration-intro.png"
               alt="intro-img"
               className="w-full h-fit"
             />
@@ -29,7 +29,7 @@ function Landing() {
       </div>
       <div className="m-w-full h-[100px]  md:mb-[200px]">
         <img
-          src="src/assets/images/bg-curvy-desktop.svg"
+          src="./images/bg-curvy-desktop.svg"
           alt=""
           className="min-w-full h-fit"
         />

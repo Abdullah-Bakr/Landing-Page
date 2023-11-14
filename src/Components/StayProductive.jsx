@@ -5,7 +5,7 @@ function StayProductive() {
         <div className="text-white flex gap-5  items-center justify-evenly flex-wrap md:flex-nowrap ">
           <div>
             <img
-              src="src/assets/images/illustration-stay-productive.png"
+              src="./images/illustration-stay-productive.png"
               alt="productive-img"
             />
           </div>
@@ -31,7 +31,7 @@ function StayProductive() {
             >
               See how Fylo works
               <img
-                src="src/assets/images/icon-arrow.svg"
+                src="./images/icon-arrow.svg"
                 alt="arrow"
                 className="h-[20px] w-[20px] object-contain animate-[moveRight_1s_ease-in-out_infinite] "
               />

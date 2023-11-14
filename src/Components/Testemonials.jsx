@@ -2,19 +2,19 @@ function Testemonials() {
   const data = [
     {
       desc: "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
-      pic: "src/assets/images/profile-1.jpg",
+      pic: "./images/profile-1.jpg",
       name: "Satish Patel",
       posistion: "Founder & CEO, Huddle",
     },
     {
       desc: "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
-      pic: "src/assets/images/profile-2.jpg",
+      pic: "/images/profile-2.jpg",
       name: "Bruce McKenzie",
       posistion: "Founder & CEO, Huddle",
     },
     {
       desc: "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
-      pic: "src/assets/images/profile-3.jpg",
+      pic: "./images/profile-3.jpg",
       name: "Iva Boyd",
       posistion: "Founder & CEO, Huddle",
     },
@@ -23,7 +23,7 @@ function Testemonials() {
     <section className="bg-bghome py-[200px]" id="team">
       <div className="container mx-auto relative">
         <div className="absolute">
-          <img src="src/assets/images/bg-quotes.png" alt="quotes" />
+          <img src="./images/bg-quotes.png" alt="quotes" />
         </div>
         <div className="max-w-full relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-white py-[40px] gap-10 ">
           {data.map((person) => {
